@@ -6,12 +6,13 @@
 
     <groupId>me.ItsWagPvP</groupId>
     <artifactId>BanknotesPlus</artifactId>
-    <version>1.1</version>
+    <version>${revision}</version>
     <packaging>jar</packaging>
 
     <name>BanknotesPlus</name>
 
     <properties>
+        <revision>1.1</revision>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
