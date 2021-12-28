@@ -14,9 +14,10 @@
     <properties>
         <revision>1.1</revision>
         <java.version>1.8</java.version>
+        <minecraft_version>1.18.1</minecraft_version>
+        <spigot_version>${minecraft_version}-R0.1-SNAPSHOT</spigot_version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <url>boostdevteam.eu</url>
 
     <build>
         <plugins>
@@ -78,7 +79,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.16.5-R0.1-SNAPSHOT</version>
+            <version>${spigot_version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
